@@ -1,0 +1,14 @@
+{
+  "workspaceId": "81769363-74be-43f5-9955-491d5d61f976",
+  "workspaceName": "Dallah driving school's workspace",
+  "projectId": "218ecab6-4825-4e99-a5ed-657c480051f3",
+  "projectName": "My project",
+  "editorUrl": "https://patterned-plot-editor.weweb.io",
+  "pages": {
+    "home": "c2371663-01d4-45b2-bf91-76311f05abff",
+    "login": "26fa5b1b-b85d-49ed-8549-efca966752ce",
+    "signup": "756f4ea4-e78e-468f-8ea9-405cf55a3fb8",
+    "forgotPassword": "f70f9ebe-9886-4807-becf-701146c2aa22",
+    "notFound": "f6d9184a-e6e42-46d2-bf13-5acc8c54607a"
+  }
+}
