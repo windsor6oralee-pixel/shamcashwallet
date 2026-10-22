@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "weweb": {
+        "type": "remote",
+        "url": "https://ai-api.weweb.io/v1/mcp"
+      }
+    }
+  }
+}
