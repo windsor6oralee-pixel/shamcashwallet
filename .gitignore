@@ -1,0 +1,6 @@
+# Local working files: byte-exact snapshots, restore points, scratch data.
+# Never commit these (they can contain personal data).
+.local/
+
+# Local security/PII artifacts
+.local/

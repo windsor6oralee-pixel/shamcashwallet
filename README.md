@@ -31,12 +31,12 @@ Local workspace for the ShamCash Wallet app. The live product is built in WeWeb;
 | View | uid | Access |
 | --- | --- | --- |
 | published_financing_catalog | `b50a7af2-77a4-4dbf-9a57-6f8b909106c3` | public |
-| financing_lifecycle_events | `69894fc0-e404-4ddd-9713-a28c6b883508` | public |
-| financing_application_timeline | `76335532-c045-492c-9586-9d40d4949604` | public, **requires `reference_code`** (filter always applied) |
-| system_settings_view | `19cbf492-56cd-4361-a2ac-84bbaa0daed9` | — |
-| recent_transactions | `86373b0a-8100-4500-84ad-25bcfdb634f6` | — |
-| all_wallets | `a5f6a66b-44aa-4587-aaba-972b52b3b507` | — |
-| financing_applications_view | `52123c2d-1895-4461-ac24-171ab57e00a5` | authenticated (admin) |
+| financing_lifecycle_events | `69894fc0-e404-4ddd-9713-a28c6b883508` | public (sanitized; Home lifecycle only) |
+| financing_application_timeline | `76335532-c045-492c-9586-9d40d4949604` | **authenticated + admin/operator (OR)**; track page reads timeline from PIN-verified `/api/financing/track` |
+| system_settings_view | `19cbf492-56cd-4361-a2ac-84bbaa0daed9` | public |
+| recent_transactions | `86373b0a-8100-4500-84ad-25bcfdb634f6` | **authenticated + admin/operator (OR)** |
+| all_wallets | `a5f6a66b-44aa-4587-aaba-972b52b3b507` | **authenticated + admin/operator (OR)** |
+| financing_applications_view | `52123c2d-1895-4461-ac24-171ab57e00a5` | **authenticated + admin/operator (OR)** |
 
 ### Design System Phases
 
